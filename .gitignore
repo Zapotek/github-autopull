@@ -1,2 +1,5 @@
 .project
 Gemfile.lock
+deploy
+log.txt
+
