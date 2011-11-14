@@ -14,6 +14,8 @@ Open up `config.yaml` and set:
 * `token` to a secret value
 * `user` to a local user that can pull from the GitHub project (i.e. has the proper SSH keys)
 
+Optionally, you can specify a file to be `touch`ed after every pull request.
+
 ## Usage
 
 Execute `rackup` from inside the AutoPull directory.

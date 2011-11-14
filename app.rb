@@ -62,6 +62,9 @@ post '/' do
 
     ret = `cd #{settings.config['repo_dir']} && sudo -u #{settings.config['user']} git pull`
     log '[PULL] ' + ret
+
+    FileUtils.touch( settings.config['touch'] ) if settings.config['repo_dir']
+
     ret
 end
 
