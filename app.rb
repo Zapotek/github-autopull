@@ -29,7 +29,7 @@ helpers do
 
     def log( str )
         str = "[#{Time.now.to_s}] #{str}"
-        STDERR.puts str
+        puts str
         settings.log << str
     end
 end

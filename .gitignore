@@ -2,4 +2,5 @@
 Gemfile.lock
 deploy
 log.txt
+tmp/restart.txt
 
